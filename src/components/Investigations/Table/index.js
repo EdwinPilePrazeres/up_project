@@ -23,7 +23,7 @@ const Table = () => {
           ]}
           data={query =>
             new Promise((resolve, reject) => {
-              let url = './Data.js'
+              let url = 'https://raw.githubusercontent.com/EdwinPilePrazeres/up_project/master/src/components/Investigations/Table/Data.js'
               url += 'per_page=' + query.pageSize
               url += '&page=' + (query.page + 1)
               fetch(url)
