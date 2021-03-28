@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/up_project/static/css/main.64b24a9c.chunk.css",
-    "main.js": "/up_project/static/js/main.89900265.chunk.js",
-    "main.js.map": "/up_project/static/js/main.89900265.chunk.js.map",
+    "main.js": "/up_project/static/js/main.9f9e686f.chunk.js",
+    "main.js.map": "/up_project/static/js/main.9f9e686f.chunk.js.map",
     "runtime-main.js": "/up_project/static/js/runtime-main.1a6c2f11.js",
     "runtime-main.js.map": "/up_project/static/js/runtime-main.1a6c2f11.js.map",
     "static/js/2.b9dc9fe3.chunk.js": "/up_project/static/js/2.b9dc9fe3.chunk.js",
     "static/js/2.b9dc9fe3.chunk.js.map": "/up_project/static/js/2.b9dc9fe3.chunk.js.map",
-    "static/js/3.5eb26380.chunk.js": "/up_project/static/js/3.5eb26380.chunk.js",
-    "static/js/3.5eb26380.chunk.js.map": "/up_project/static/js/3.5eb26380.chunk.js.map",
+    "static/js/3.d29a72fd.chunk.js": "/up_project/static/js/3.d29a72fd.chunk.js",
+    "static/js/3.d29a72fd.chunk.js.map": "/up_project/static/js/3.d29a72fd.chunk.js.map",
     "static/js/4.c5ffb813.chunk.js": "/up_project/static/js/4.c5ffb813.chunk.js",
     "static/js/4.c5ffb813.chunk.js.map": "/up_project/static/js/4.c5ffb813.chunk.js.map",
     "static/js/5.cf9dbc65.chunk.js": "/up_project/static/js/5.cf9dbc65.chunk.js",
@@ -16,7 +16,7 @@
     "index.html": "/up_project/index.html",
     "static/css/main.64b24a9c.chunk.css.map": "/up_project/static/css/main.64b24a9c.chunk.css.map",
     "static/js/2.b9dc9fe3.chunk.js.LICENSE.txt": "/up_project/static/js/2.b9dc9fe3.chunk.js.LICENSE.txt",
-    "static/js/3.5eb26380.chunk.js.LICENSE.txt": "/up_project/static/js/3.5eb26380.chunk.js.LICENSE.txt",
+    "static/js/3.d29a72fd.chunk.js.LICENSE.txt": "/up_project/static/js/3.d29a72fd.chunk.js.LICENSE.txt",
     "static/js/4.c5ffb813.chunk.js.LICENSE.txt": "/up_project/static/js/4.c5ffb813.chunk.js.LICENSE.txt",
     "static/js/5.cf9dbc65.chunk.js.LICENSE.txt": "/up_project/static/js/5.cf9dbc65.chunk.js.LICENSE.txt",
     "static/media/background-min.8ed00336.png": "/up_project/static/media/background-min.8ed00336.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1a6c2f11.js",
-    "static/js/3.5eb26380.chunk.js",
+    "static/js/3.d29a72fd.chunk.js",
     "static/css/main.64b24a9c.chunk.css",
-    "static/js/main.89900265.chunk.js"
+    "static/js/main.9f9e686f.chunk.js"
   ]
 }
