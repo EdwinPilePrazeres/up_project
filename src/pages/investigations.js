@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Footer from "../components/Footer";
 import CustomizedTables from "../components/Investigations/Table";
 import Navbar from "../components/NavBar";
 import ScrollToTop from "../components/ScrollToTop";
@@ -18,7 +17,6 @@ const Investigations = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <CustomizedTables />
-      {/* <Footer /> */}
     </>
   );
 };

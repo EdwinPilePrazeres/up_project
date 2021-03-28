@@ -37,7 +37,7 @@ const Table = () => {
             title: "Visor Redalyc",
             autors: "Edwin Pile, Andrés Chang",
             link: (
-              <a target='_blank' href="http://portal.amelica.org/ameli/jatsRepo/212/2121146004/movil/index.html">
+              <a target='_blank' rel="noreferrer" href="http://portal.amelica.org/ameli/jatsRepo/212/2121146004/movil/index.html">
                 Click Here
               </a>
             ),
@@ -47,7 +47,7 @@ const Table = () => {
               "Caracterización de las Explotaciones Ganaderas de Leche en Agroecosistemas de la Provincia de Darien, Panama",
             autors: "Edwin Pile, Andres Chang",
             link: (
-              <a target='_blank' href="https://revistas.up.ac.pa/index.php/centros/article/view/287">
+              <a target='_blank' rel="noreferrer" href="https://revistas.up.ac.pa/index.php/centros/article/view/287">
                 Click Here
               </a>
             ),

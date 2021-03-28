@@ -13,7 +13,7 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    link:'/investigations'
+    link:'/up_project/investigations'
 
 };
 
@@ -32,7 +32,7 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
-    link:"/abiotics"
+    link:"/up_project/abiotics"
 };
 
 export const homeObjThree = {

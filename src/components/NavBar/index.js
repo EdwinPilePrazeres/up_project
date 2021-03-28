@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
         {/* <Nav scrollNav={scrollNav}> */}
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/" onClick={toggleHome}>
+            <NavLogo to="/up_project" onClick={toggleHome}>
               Logo
             </NavLogo>
             <MobileIcon onClick={toggle}>
@@ -124,7 +124,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/abiotics">Contactanos</NavBtnLink>
+              <NavBtnLink to="/up_project/contact">Contactanos</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
