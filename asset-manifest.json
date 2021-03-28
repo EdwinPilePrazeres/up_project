@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/up_project/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/up_project/static/js/main.3f1bb8e4.chunk.js",
-    "main.js.map": "/up_project/static/js/main.3f1bb8e4.chunk.js.map",
-    "runtime-main.js": "/up_project/static/js/runtime-main.87450e2f.js",
-    "runtime-main.js.map": "/up_project/static/js/runtime-main.87450e2f.js.map",
-    "static/js/2.a0b2f93a.chunk.js": "/up_project/static/js/2.a0b2f93a.chunk.js",
-    "static/js/2.a0b2f93a.chunk.js.map": "/up_project/static/js/2.a0b2f93a.chunk.js.map",
-    "static/js/3.21b6c3eb.chunk.js": "/up_project/static/js/3.21b6c3eb.chunk.js",
-    "static/js/3.21b6c3eb.chunk.js.map": "/up_project/static/js/3.21b6c3eb.chunk.js.map",
+    "main.css": "/up_project/static/css/main.64b24a9c.chunk.css",
+    "main.js": "/up_project/static/js/main.89900265.chunk.js",
+    "main.js.map": "/up_project/static/js/main.89900265.chunk.js.map",
+    "runtime-main.js": "/up_project/static/js/runtime-main.1a6c2f11.js",
+    "runtime-main.js.map": "/up_project/static/js/runtime-main.1a6c2f11.js.map",
+    "static/js/2.b9dc9fe3.chunk.js": "/up_project/static/js/2.b9dc9fe3.chunk.js",
+    "static/js/2.b9dc9fe3.chunk.js.map": "/up_project/static/js/2.b9dc9fe3.chunk.js.map",
+    "static/js/3.5eb26380.chunk.js": "/up_project/static/js/3.5eb26380.chunk.js",
+    "static/js/3.5eb26380.chunk.js.map": "/up_project/static/js/3.5eb26380.chunk.js.map",
+    "static/js/4.c5ffb813.chunk.js": "/up_project/static/js/4.c5ffb813.chunk.js",
+    "static/js/4.c5ffb813.chunk.js.map": "/up_project/static/js/4.c5ffb813.chunk.js.map",
+    "static/js/5.cf9dbc65.chunk.js": "/up_project/static/js/5.cf9dbc65.chunk.js",
+    "static/js/5.cf9dbc65.chunk.js.map": "/up_project/static/js/5.cf9dbc65.chunk.js.map",
     "index.html": "/up_project/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/up_project/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.a0b2f93a.chunk.js.LICENSE.txt": "/up_project/static/js/2.a0b2f93a.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/up_project/static/media/logo.6ce24c58.svg"
+    "static/css/main.64b24a9c.chunk.css.map": "/up_project/static/css/main.64b24a9c.chunk.css.map",
+    "static/js/2.b9dc9fe3.chunk.js.LICENSE.txt": "/up_project/static/js/2.b9dc9fe3.chunk.js.LICENSE.txt",
+    "static/js/3.5eb26380.chunk.js.LICENSE.txt": "/up_project/static/js/3.5eb26380.chunk.js.LICENSE.txt",
+    "static/js/4.c5ffb813.chunk.js.LICENSE.txt": "/up_project/static/js/4.c5ffb813.chunk.js.LICENSE.txt",
+    "static/js/5.cf9dbc65.chunk.js.LICENSE.txt": "/up_project/static/js/5.cf9dbc65.chunk.js.LICENSE.txt",
+    "static/media/background-min.8ed00336.png": "/up_project/static/media/background-min.8ed00336.png",
+    "static/media/estanteria-min.jpg": "/up_project/static/media/estanteria-min.b07e118f.jpg",
+    "static/media/goals.svg": "/up_project/static/media/goals.d8793cf8.svg",
+    "static/media/lineaInvestigacion.36931508.svg": "/up_project/static/media/lineaInvestigacion.36931508.svg",
+    "static/media/team.960c4ec6.svg": "/up_project/static/media/team.960c4ec6.svg",
+    "static/media/video.7da3ed5e.mp4": "/up_project/static/media/video.7da3ed5e.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.87450e2f.js",
-    "static/js/2.a0b2f93a.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.3f1bb8e4.chunk.js"
+    "static/js/runtime-main.1a6c2f11.js",
+    "static/js/3.5eb26380.chunk.js",
+    "static/css/main.64b24a9c.chunk.css",
+    "static/js/main.89900265.chunk.js"
   ]
 }
