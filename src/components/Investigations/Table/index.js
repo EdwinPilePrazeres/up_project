@@ -1,44 +1,62 @@
-import React from 'react'
+import React from "react";
 import MaterialTable from "material-table";
 
-
 const Table = () => {
-    return (
-        <MaterialTable
-          title="Remote Data Preview"
-          columns={[
-            {
-              title: 'Avatar',
-              field: 'avatar',
-              render: rowData => (
-                <img
-                  style={{ height: 36, borderRadius: '50%' }}
-                  src={rowData.avatar}
-                />
-              ),
+  return (
+    <div style={{ maxWidth: "100%", position: "relative", paddingTop: "80px" }}>
+      <MaterialTable
+        classname="options.headerStyle"
+        columns={[
+          {
+            title: "Title",
+            field: "title",
+            headerStyle: {
+              backgroundColor: "#418f7f",
+              color: "#FFF",
             },
-            { title: 'Id', field: 'id' },
-            { title: 'First Name', field: 'first_name' },
-            { title: 'Last Name', field: 'last_name' },
-          ]}
-          data={query =>
-            new Promise((resolve, reject) => {
-              let url = 'https://raw.githubusercontent.com/EdwinPilePrazeres/up_project/master/src/components/Investigations/Table/Data.js'
-              url += 'per_page=' + query.pageSize
-              url += '&page=' + (query.page + 1)
-              fetch(url)
-                .then(response => response.json())
-                .then(result => {
-                  resolve({
-                    data: result.data,
-                    page: result.page - 1,
-                    totalCount: result.total,
-                  })
-                })
-            })
-          }
-        />
-      )
-}
+          },
+          {
+            title: "Autors",
+            field: "autors",
+            headerStyle: {
+              backgroundColor: "#418f7f",
+              color: "#FFF",
+            },
+          },
+          {
+            title: "Link",
+            field: "link",
+            headerStyle: {
+              backgroundColor: "#418f7f",
+              color: "#FFF",
+            },
+          },
+        ]}
+        data={[
+          {
+            title: "Visor Redalyc",
+            autors: "Edwin Pile, Andrés Chang",
+            link: (
+              <a target='_blank' href="http://portal.amelica.org/ameli/jatsRepo/212/2121146004/movil/index.html">
+                Click Here
+              </a>
+            ),
+          },
+          {
+            title:
+              "Caracterización de las Explotaciones Ganaderas de Leche en Agroecosistemas de la Provincia de Darien, Panama",
+            autors: "Edwin Pile, Andres Chang",
+            link: (
+              <a target='_blank' href="https://revistas.up.ac.pa/index.php/centros/article/view/287">
+                Click Here
+              </a>
+            ),
+          },
+        ]}
+        title="Ultimas Investigaciones"
+      />
+    </div>
+  );
+};
 
-export default Table
+export default Table;
