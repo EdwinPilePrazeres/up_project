@@ -71,7 +71,7 @@ const Footer = () => {
             <SocialIconWrap>
               <SocialIcons>
                 <SocialIconLink
-                  href="//www.google.com/"
+                  href="//www.facebook.com/"
                   target="_blank"
                   aria-label="Facebook"
                 >
@@ -80,7 +80,7 @@ const Footer = () => {
               </SocialIcons>
               <SocialIcons>
                 <SocialIconLink
-                  href="//https://www.google.com/"
+                  href="//www.instagram.com/"
                   target="_blank"
                   aria-label="Instagram"
                 >
@@ -89,7 +89,7 @@ const Footer = () => {
               </SocialIcons>
               <SocialIcons>
                 <SocialIconLink
-                  href="//https://www.google.com/"
+                  href="//www.youtube.com/"
                   target="_blank"
                   aria-label="Youtube"
                 >
@@ -98,7 +98,7 @@ const Footer = () => {
               </SocialIcons>
               <SocialIcons>
                 <SocialIconLink
-                  href="//https://www.google.com/"
+                  href="//www.Linkedin.com/"
                   target="_blank"
                   aria-label="LinkedIn"
                 >

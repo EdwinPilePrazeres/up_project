@@ -63,6 +63,11 @@ export const SidebarLink = styled(LinkS)`
     color: #01bf71;
     transition: 0.2s ease-in-out;
   }
+
+  &.disable {
+    color: #a0a0a0;
+    cursor: not-allowed;
+  }
 `;
 
 export const SideBtnWrap = styled.div`

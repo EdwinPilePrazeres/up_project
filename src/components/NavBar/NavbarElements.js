@@ -141,6 +141,11 @@ export const NavLinks = styled(LinkS)`
     color: #01bf71;
     transition: 0.2s ease-in-out;
   }
+   
+  &.disable {
+    cursor: not-allowed;
+    color: #a0a0a0;
+  }
 `;
 
 export const NavBtn = styled.nav`
@@ -170,3 +175,8 @@ export const NavBtnLink = styled(LinkR)`
     color: #010606;
   }
 `;
+
+export const NavDisable = styled.p`
+  color: #a0a0a0;
+  cursor: not-allowed;
+`

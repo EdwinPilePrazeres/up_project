@@ -82,6 +82,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
+                  className='disable'
                 >
                   Territorios Forestales
                 </NavLinks>
@@ -94,6 +95,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
+                  className='disable'
                 >
                   Proyecto Bicentenario
                 </NavLinks>
@@ -106,6 +108,7 @@ const Navbar = ({ toggle }) => {
                   spy={true}
                   exact="true"
                   offset={-80}
+                  className='disable'
                 >
                   Proyecto Explora
                 </NavLinks>
