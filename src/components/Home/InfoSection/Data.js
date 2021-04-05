@@ -50,5 +50,5 @@ export const homeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    link: 'home',
+    link: '/up_project/contact',
 }

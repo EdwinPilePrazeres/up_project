@@ -48,6 +48,10 @@ const index = () => {
           </div>
         </div>
       </div>
+
+      <div className='back_button'>
+        <Link to='/up_project'>Logo</Link>
+      </div>
     </div>
   );
 };
