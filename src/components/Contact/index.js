@@ -1,38 +1,55 @@
 import React from "react";
-import {
-  FormButton,
-  FormH1,
-  FormInput,
-  FormLabel,
-  FormWrap,
-  Icon,
-  ContactContainer,
-  Form,
-  FormContent,
-  Text,
-} from "./ContactElements";
+import { Link } from "react-router-dom";
+import './contact.scss'
 
-const Contact = () => {
+const index = () => {
+
+  const toggle = () => {
+    document.querySelector('.container').classList.toggle('active');
+    document.querySelector('.SectionContact').classList.toggle('active');
+  }
+
   return (
-    <>
-      <ContactContainer>
-        <FormWrap>
-          <Icon to="/up_project">Logo</Icon>
-          <FormContent>
-            <Form action="#">
-              <FormH1>Sign in to your account</FormH1>
-              <FormLabel htmlFor="for">Email</FormLabel>
-              <FormInput type="email" required />
-              <FormLabel htmlFor="for">Password</FormLabel>
-              <FormInput type="password" required />
-              <FormButton type="submit">Continue</FormButton>
-              <Text>Forgot Password</Text>
-            </Form>
-          </FormContent>
-        </FormWrap>
-      </ContactContainer>
-    </>
+    <div className='SectionContact'>
+      <div className='container'>
+        <div className='user signinBx'>
+          <div className='imgBx'>
+            <img src={require('../../images/door_looked.jpg').default} alt="Door Looked"/>
+          </div>
+          <div className='formBx'>
+            <form>
+              <h2>Sign In</h2>
+              <input type="text" placeholder="UserName" />
+              <input type="password" placeholder="Password" />
+              <input type="submit" value="Login" />
+              <p className="signup">
+                don't have an account? <Link onClick={toggle}>Sing up</Link>
+              </p>
+            </form>
+          </div>
+        </div>
+        {/*  */}
+        <div className='user signupBx'>
+          <div className='formBx'>
+            <form>
+              <h2>Create Account</h2>
+              <input type="text" placeholder="UserName" />
+              <input type="email" placeholder="Email Address" />
+              <input type="password" placeholder="Create Password" />
+              <input type="password" placeholder="Confirm Password" />
+              <input type="submit" value="Sign Up" />
+              <p className="signup">
+                Already have an account? <Link onClick={toggle}>Sing in</Link>
+              </p>
+            </form>
+          </div>
+          <div className='imgBx'>
+            <img src={require('../../images/keys.jpg').default} alt="Door Looked"/>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default Contact;
+export default index;

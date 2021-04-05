@@ -24,7 +24,7 @@ const VideoContainer = () => {
     <HeroContainer id="home">
       <HeroBg>
         {/* <VideoBg autoPlay loop muted src={Video} type="video/mp4" /> */}
-        <VideoBg autoPlay preload='true' loop muted type="video/mp4">
+        <VideoBg className='VV' autoPlay preload='true' loop muted type="video/mp4">
           <source src={Video} poster={BG}></source>
         </VideoBg>
       </HeroBg>
